@@ -1,0 +1,13 @@
+.two_col_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
